@@ -991,9 +991,15 @@ live2d:
   pluginModelPath: assets/
   model:
     use: live2d-widget-model-wanko
+    scale: 0.5
+    hHeadPos: 0.5
+    vHeadPos: 0.618
   display:
+    superSample: 2
+    width: 50
+    height: 100
     position: right
-    width: 75
-    height: 150
+    hOffset: 0
+    vOffset: -20
   mobile:
     show: true

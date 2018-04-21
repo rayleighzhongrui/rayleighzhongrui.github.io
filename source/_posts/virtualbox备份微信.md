@@ -1,12 +1,13 @@
 ---
 title: virtualbox备份微信
-date: 2017-07-21 19:03:37
 tags:
-    - virtualbox
-    - win10
-    - usb2.0
-    - 微信备份
+  - virtualbox
+  - win10
+  - usb2.0
+  - 微信备份
 categories: 修理电脑
+abbrlink: fbe3b456
+date: 2017-07-21 19:03:37
 ---
 刚开始安装virtualbox没法用usb2.0,需要安装增强软件
 - 查版本号：dpkg -l，找virtualbox对应的版本号

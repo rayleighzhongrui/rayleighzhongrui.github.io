@@ -5,15 +5,13 @@
 {% block title %}{{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} - {{config.subtitle }}{% endif %}{% endblock %}
 
 {% block page_class %}
-  {% if is_home() %} page-home {% endif %}
+  {% if is_home() %}page-home{% endif -%}
 {% endblock %}
 
 {% block content %}
   <section id="posts" class="posts-expand">
     {% for post in page.posts %}
-      {% if post.visible != 'hide' %}
       {{ post_template.render(post, true) }}
-      {% endif %}
     {% endfor %}
   </section>
 

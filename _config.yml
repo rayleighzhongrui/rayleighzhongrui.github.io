@@ -143,3 +143,4 @@ server:
   port: 4001
   compress: true
   header: true
+#吉祥物

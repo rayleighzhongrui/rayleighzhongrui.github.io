@@ -1922,7 +1922,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #130d62;
+  background: #e5ffdb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2723,10 +2723,10 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("/images/245194-106.jpg");
+  background: url("/images/steinsgate-nn.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
 }
 .sidebar {
